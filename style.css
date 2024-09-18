@@ -8,11 +8,11 @@
 }
 
 :root{
-    --bg-color: #160d07;
-    --text-color: #ffdeee;
-    --main-color: #ffa86a;
-    --other-color: #d6d4c8;
-    --second-color: #ffffff4f;
+    --bg-color: #4b2e19;
+    --text-color: #f7ede2;
+    --main-color: #c08a54;
+    --other-color: #eae0d5;
+    --second-color: #ffffff80;
     
     --h1-font: 7.5rem;
     --p-font: 1.1rem;
@@ -99,6 +99,12 @@ header{
 #slider figure img {
     width: 20%; 
     float: left;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.3);
+    border-radius: 5px;
+    transition: transform 0.3s ease;
 }
 
 @keyframes slider {
@@ -139,7 +145,7 @@ section{
     position: relative;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(250.55deg, #120b07 0%, #311b0d 28.55%, #160d07 75.55%);
+    background: linear-gradient(250.55deg, #120b07 0%, #311b0d 28.55%, #160d07 75.55%); 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
