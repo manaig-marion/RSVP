@@ -272,7 +272,7 @@ section{
 
     #slider{
         padding: 0;
-        margin-top: 5%;
+        margin-top: 5% auto;
     }
 
     #slider figure{
