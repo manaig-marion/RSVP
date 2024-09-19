@@ -232,6 +232,13 @@ section{
     :root{
         --h1-font: 5rem;
     }
+    .nav-side {
+        margin-right: 15px; 
+    }
+    
+    .n-btn {
+        margin-right: 10px; 
+    }
 }
 
 @media(max-width:880px){
