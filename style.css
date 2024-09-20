@@ -300,20 +300,21 @@ section{
         margin-right: 10px; 
     }
     #slider img{
-        max-width: 400px;
-        width: auto;
-        height: auto;
-        margin: 0 auto;
-        object-fit: contain;
+        max-width: 100%; 
+        width: auto; 
+        height: auto; 
+        margin: 0 auto; 
     }
 
     #slider{
-        padding: 0;
-        margin: 0 auto;
+        max-width: 90%; 
+        margin: 20px auto; 
+        padding-bottom: 20px; 
     }
 
     #slider figure{
         display: block;
+        width: 100%;
     }
     #menu-icon{
         font-size: 36px;
