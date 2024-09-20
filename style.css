@@ -321,8 +321,4 @@ section{
     #menu-icon{
         font-size: 36px;
     }
-
-    .mn-text p {
-        text-align: justify; /* Justifies the text */
-    }
 }
