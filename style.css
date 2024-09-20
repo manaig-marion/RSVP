@@ -321,9 +321,4 @@ section{
     #menu-icon{
         font-size: 36px;
     }
-
-    .mn-text h1 {
-        text-align: justify; /* Justifies the text */
-        font-size: 2.5rem; /* You can adjust the font size if needed */
-    }
 }
