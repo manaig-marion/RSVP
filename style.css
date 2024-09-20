@@ -101,7 +101,7 @@ header{
 #slider img {
     width: 100%; 
     height: auto;
-    display: block;
+    object-fit: contain;
 }
 
 #slider figure img {
@@ -146,7 +146,7 @@ header{
 }
 
 section{
-    padding: 0 17%;
+    padding: 0 5%;
 }
 
 .pic-tex{
@@ -259,7 +259,7 @@ section{
     
     #slider{
         margin: 4% auto;
-        padding: 0 10px;
+        padding: 0;
     }
     
     .pic-tex{
@@ -317,6 +317,16 @@ section{
     }
     #menu-icon{
         font-size: 36px;
+    }
+    .mn-text {
+        padding: 20px 0; /* Add space above and below the text */
+        text-align: center; /* Center the text */
+    }
+    .mn-text h1 {
+        margin: 15px 0; /* Adjust margin for better spacing */
+    }
+    .mn-text p {
+        margin: 15px 0; /* Add some margin to paragraphs */
     }
 }
  
