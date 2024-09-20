@@ -318,15 +318,5 @@ section{
     #menu-icon{
         font-size: 36px;
     }
-    .mn-text {
-        padding: 20px 0; /* Add space above and below the text */
-        text-align: center; /* Center the text */
-    }
-    .mn-text h1 {
-        margin: 15px 0; /* Adjust margin for better spacing */
-    }
-    .mn-text p {
-        margin: 15px 0; /* Add some margin to paragraphs */
-    }
 }
  
