@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let playButton = document.getElementById('play');
     
-    let audio = new Audio("music/wwat.mp3");
+    let audio = new Audio("music/smln.mp3");
     audio.volume = 0.4;
     let count = 0;
 
